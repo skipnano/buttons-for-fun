@@ -1,0 +1,218 @@
+/* Custom CSS */
+/* Coded By: Dean Gilroy */
+/* Version 1.0 */
+
+/*STUCTURAL CSS*/
+header {
+	background: #222220;
+	color: white;
+	padding: 5px 5px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+h1 {
+	font-size: 60px;
+}
+a {
+	padding-right: 15px;
+	padding-left: 5px;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	color: #444440;
+}
+p {
+	color: #444440;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*ANIMATION & ROTATION ON THE LOGO*/
+#logo {
+	-webkit-animation: logoZoom 3s; /* Safari 4+ */
+  	-moz-animation:    logoZoom 3s; /* Fx 5+ */
+  	-o-animation:      logoZoom 3s; /* Opera 12+ */
+  	animation:         logoZoom 3s; /* IE 10+, Fx 29+ */
+  	-ms-transform: 		rotate(-25deg); /* IE 9 */
+    -webkit-transform: 	rotate(-25deg); /* Chrome, Safari, Opera */
+    transform: 			rotate(-25deg);
+}
+
+	@keyframes logoZoom {
+  		0% {
+    		font-size: 0px;
+  		}
+  		100% {
+    		font-size: 60px;
+  		}
+	}
+/*END ANIMATION ON THE LOGO*/
+
+.dropdown-menu a {
+	font-size: 15px;
+}
+
+.container-fluid {
+	padding: 0px;
+}
+
+.button-row {
+	/*background: #DDDCF1;*/
+	margin: 0;
+}
+.btn-column {
+	margin: 0;
+	text-align: center;
+}
+.module {
+	/*background-color: #DDDCF1;*/
+	background-color: #e8e8e8;
+	padding: 10px;
+	margin: 5px -10px;
+}
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px 40px;
+}
+.footer {
+    background-color: #f5f5f5;
+}
+
+/*BUTTON CSS*/
+.b1 {
+	background-color: #f5f5f5;
+	border: solid 3px #444440;
+	color: #444440;
+}
+.b2 {
+	border: solid 3px #F92772;
+	background-color: #f5f5f5;
+	color: #F92772;
+}
+.b3 {
+	background-color: #f5f5f5;
+	border: solid 3px #ffe30f;
+	color: #ffe30f;
+}
+.b4 {
+	box-shadow: 0px 4px 0px 0px #222220;
+	background-color: #444440;
+	color: #f5f5f5;
+}
+.b5 {
+	box-shadow: 0px 4px 0px 0px #F92772;
+	background-color: #fb6a9d;
+	color: #f5f5f5;
+}
+.b6 {
+	box-shadow: 0px 4px 0px 0px #ffe30f;
+	background-color: #ffee6b;
+	color: #444440;
+	padding: 10px 50px;
+}
+.b7 {
+	border: dotted 2px #f5f5f5;
+	border-radius: 25px;
+	background-color: #444440;
+	color: #f5f5f5;
+
+}
+.b8 {
+	border: dotted 2px #f5f5f5;
+	border-radius: 25px;
+	background-color: #fb6a9d;
+	color: #f5f5f5;
+}
+.b9 {
+	border: dotted 2px #f5f5f5;
+	border-radius: 25px;
+	background-color: #ffee6b;
+}
+.b10 {
+	background-color: #444440;
+	color: #f5f5f5;
+}
+.b11{
+	background-color: #37a976;
+	color: #f5f5f5;
+}
+.b12 {
+	background-color: #3555d4;
+	color: #f5f5f5;
+}
+.b13, .b13-drop {
+	background-color: #f5f5f5;
+	border: solid 2px #444440;
+}
+.b14, .b14-drop {
+	background-color: #f5f5f5;
+	border: solid 2px #37a976;
+	color: #37a976;
+}
+.b15, .b15-drop {
+	background-color: #f5f5f5;
+	border: solid 2px #3555d4;
+	color: #3555d4;
+}
+
+/*PSEUDO CLASSES*/
+
+a:hover {text-decoration: none;}
+
+#logo:hover {color: #37a976;}
+
+.btn:focus {outline:0 !important;}
+
+.b1:hover {
+	background-color: #444440;
+	color: #f5f5f5;
+}
+.b2:hover {
+	background-color: #F92772;
+	color: #f5f5f5;
+}
+.b3:hover {
+	background-color: #ffe30f;
+	color: #f5f5f5;
+}
+
+.b7:hover {
+	border: none;
+	border-radius: 5px;
+	color: #f5f5f5;
+}
+.b8:hover {
+	border: none;
+	border-radius: 5px;
+	color: #f5f5f5;
+}
+.b9:hover {
+	border: none;
+	border-radius: 5px;
+}
+.b13-drop:hover {
+	background-color: #444440;
+	color: #f5f5f5;
+}
+.b14-drop:hover {
+	background-color: #37a976;
+	color: #f5f5f5;
+}
+.b15-drop:hover {
+	background-color: #3555d4;
+	color: #f5f5f5;
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 768px) {
+
+	h1 {
+		font-size: 50px; 
+	}
+	footer, p, a {
+		font-size: 12px;
+	}
+}
+
+
+
