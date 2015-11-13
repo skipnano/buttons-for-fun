@@ -29,10 +29,10 @@ p {
 
 /*ANIMATION & ROTATION ON THE LOGO*/
 #logo {
-	-webkit-animation: logoZoom 3s; /* Safari 4+ */
-  	-moz-animation:    logoZoom 3s; /* Fx 5+ */
-  	-o-animation:      logoZoom 3s; /* Opera 12+ */
-  	animation:         logoZoom 3s; /* IE 10+, Fx 29+ */
+	-webkit-animation: logoZoom 2s; /* Safari 4+ */
+  	-moz-animation:    logoZoom 2s; /* Fx 5+ */
+  	-o-animation:      logoZoom 2s; /* Opera 12+ */
+  	animation:         logoZoom 2s; /* IE 10+, Fx 29+ */
   	-ms-transform: 		rotate(-25deg); /* IE 9 */
     -webkit-transform: 	rotate(-25deg); /* Chrome, Safari, Opera */
     transform: 			rotate(-25deg);
@@ -77,6 +77,12 @@ p {
 .footer {
     background-color: #f5f5f5;
 }
+/*.fixed-header {
+	position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}*/
 
 /*BUTTON CSS*/
 .b1 {
@@ -111,20 +117,20 @@ p {
 	padding: 10px 50px;
 }
 .b7 {
-	border: dotted 2px #f5f5f5;
+	border: solid 2px #f5f5f5;
 	border-radius: 25px;
 	background-color: #444440;
 	color: #f5f5f5;
 
 }
 .b8 {
-	border: dotted 2px #f5f5f5;
+	border: solid 2px #f5f5f5;
 	border-radius: 25px;
 	background-color: #fb6a9d;
 	color: #f5f5f5;
 }
 .b9 {
-	border: dotted 2px #f5f5f5;
+	border: solid 2px #f5f5f5;
 	border-radius: 25px;
 	background-color: #ffee6b;
 }
@@ -157,9 +163,9 @@ p {
 
 /*PSEUDO CLASSES*/
 
-a:hover {text-decoration: none;}
+a:hover {text-decoration: none; color: #37a976;}
 
-#logo:hover {color: #37a976;}
+/*#logo:hover {color: #37a976;}*/
 
 .btn:focus {outline:0 !important;}
 
@@ -211,6 +217,9 @@ a:hover {text-decoration: none;}
 	}
 	footer, p, a {
 		font-size: 12px;
+	}
+	.footer {
+		position: relative;
 	}
 }
 
