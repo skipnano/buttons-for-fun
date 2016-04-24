@@ -23,8 +23,15 @@
 <body>
 	<div class="container-fluid">
 		<header class="fixed-header">
-			<h1>Buttons For Fun. <span><i id="logo" class="fa fa-hand-pointer-o"></i></span></h1>
+				<h1>Buttons For Fun. <span><i id="logo" class="fa fa-hand-pointer-o"></i></span></h1>
 		</header>
+
+		<!-- BEGIN POPUP -->
+		<div id="popup" class="hidden">
+			<p id="result">Button CSS here</p>
+			<i class="fa fa-times" aria-hidden="true"></i>
+		</div>
+		<!-- END POPUP -->
 
 		<div class="row button-row">
 			<div class="col-sm-4 btn-column">
@@ -185,61 +192,21 @@
 		<div class="row button-row">
 			<div class="col-sm-4 btn-column">
 				<div class="module">
-					<div class="btn-group">
-						<button type="button" class="btn b16">Button Sixteen</button>
-						<button type="button" class="btn b16-drop dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							<span><i class="fa fa-sign-in"></i></span>
-							<span class="sr-only">Toggle Dropdown</span>
-						</button>
-						<div class="dropdown-menu">
-							<!-- <div class="input-group">
-								<span class="input-group-addon" id="basic-addon2">@</span>
-								<input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon2">
-							</div> -->
-							<!--<div class="input-group input-group-sm">
-								<span class="input-group-addon" id="basic-addon3"><i class="fa fa-key"></i></span>
-								<input type="text" class="form-control" placeholder="Password" aria-describedby="basic-addon3">
-							</div> -->
-							</div> 
-						</div>
-					</div>
+					<button type="submit" value="submit" class="btn b16">Button Sixteen</button>
 				</div>
 			</div>
 			<div class="col-sm-4 btn-column">
 				<div class="module">
-					<div class="btn-group">
-						<button type="button" class="btn b17">Button Seventeen</button>
-						<button type="button" class="btn b17-drop dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							<span><i class="fa fa-sign-in"></i></span>
-							<span class="sr-only">Toggle Dropdown</span>
-						</button>
-						<div class="dropdown-menu">
-							<!-- <div class="input-group">
-								<span class="input-group-addon" id="basic-addon2">@</span>
-								<input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon2">
-							</div>  -->
-						</div>
-					</div>
+					<button type="submit" value="submit" class="btn b17">Button Seventeen</button>
 				</div>
 			</div>
 			<div class="col-sm-4 btn-column">
 				<div class="module">
-					<div class="btn-group">
-						<button type="button" class="btn b18">Button Eightteen</button>
-						<button type="button" class="btn b18-drop dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							<span><i class="fa fa-sign-in"></i></span>
-							<span class="sr-only">Toggle Dropdown</span>
-						</button>
-						<div class="dropdown-menu">
-							<!-- <div class="input-group input-group-sm">
-								<span class="input-group-addon" id="basic-addon3">@</span>
-								<input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon3">
-							</div>  -->
-						</div>
-					</div>
+					<button type="submit" value="submit" class="btn b18">Button Eighteen</button>
 				</div>
 			</div>
-		</div> <!--end row6-->
+		</div> <!--end row3-->
+
 	</div> <!--End container fluid div -->
 
 	<footer class="footer navbar-fixed-bottom">
@@ -253,5 +220,6 @@
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
 
 </html>

@@ -26,13 +26,33 @@ p {
 	font-size: 20px;
 	font-family: 'Montserrat', sans-serif;
 }
+#popup {
+	margin: 0 auto;
+	background-color: #f5f5f5;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	clear: both;
+}
+.hidden {
+	display: none;
+}
+.show {
+	display: inline;
+}
+.fa-times {
+	float: right;
+	margin-top: -40px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
 
 /*ANIMATION & ROTATION ON THE LOGO*/
 #logo {
-	-webkit-animation: logoZoom 2s; /* Safari 4+ */
-  	-moz-animation:    logoZoom 2s; /* Fx 5+ */
-  	-o-animation:      logoZoom 2s; /* Opera 12+ */
-  	animation:         logoZoom 2s; /* IE 10+, Fx 29+ */
+	-webkit-animation: logoZoom 3s; /* Safari 4+ */
+  	-moz-animation:    logoZoom 3s; /* Fx 5+ */
+  	-o-animation:      logoZoom 3s; /* Opera 12+ */
+  	animation:         logoZoom 3s; /* IE 10+, Fx 29+ */
   	-ms-transform: 		rotate(-25deg); /* IE 9 */
     -webkit-transform: 	rotate(-25deg); /* Chrome, Safari, Opera */
     transform: 			rotate(-25deg);
@@ -160,12 +180,31 @@ p {
 	border: solid 2px #3555d4;
 	color: #3555d4;
 }
+.b16 {
+	box-shadow: inset 0px 0px 10px #0e97a4;
+	background-color: #14D2E4;
+}
+.b17 {
+	box-shadow: inset 0px 0px 10px #ad00ff;
+	background-color: #cc00ff;
+	color: #f5f5f5;
+}
+.b18 {
+	box-shadow: inset 0px 0px 10px #fb62dd;
+	background-color: #ff6464;
+	color: #f5f5f5;
+}
+
+/*SWICTHES*/
+
+
+/*END SWITCHES*/
 
 /*PSEUDO CLASSES*/
 
 a:hover {text-decoration: none; color: #37a976;}
 
-/*#logo:hover {color: #37a976;}*/
+#logo:hover {color: #37a976;}
 
 .btn:focus {outline:0 !important;}
 
@@ -207,6 +246,9 @@ a:hover {text-decoration: none; color: #37a976;}
 .b15-drop:hover {
 	background-color: #3555d4;
 	color: #f5f5f5;
+}
+.b16:hover {
+	content: attr(data-hover);
 }
 
 /*MOBILE*/
